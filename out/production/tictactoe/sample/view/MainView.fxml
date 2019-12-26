@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Controller">
+   <center>
+      <GridPane fx:id="gridPane" gridLinesVisible="true" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <BorderPane.margin>
+            <Insets bottom="50.0" left="120.0" right="120.0" top="50.0" />
+         </BorderPane.margin>
+         <children>
+            <Button fx:id="field00" mnemonicParsing="false" onAction="#play" prefHeight="295.0" prefWidth="358.0">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field03" mnemonicParsing="false" onAction="#play" prefHeight="355.0" prefWidth="341.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field06" mnemonicParsing="false" onAction="#play" prefHeight="312.0" prefWidth="286.0" GridPane.columnIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field01" mnemonicParsing="false" onAction="#play" prefHeight="264.0" prefWidth="304.0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field04" mnemonicParsing="false" onAction="#play" prefHeight="314.0" prefWidth="303.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field07" mnemonicParsing="false" onAction="#play" prefHeight="364.0" prefWidth="237.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field02" mnemonicParsing="false" onAction="#play" prefHeight="224.0" prefWidth="263.0" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field05" mnemonicParsing="false" onAction="#play" prefHeight="236.0" prefWidth="282.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+            <Button fx:id="field08" mnemonicParsing="false" onAction="#play" prefHeight="201.0" prefWidth="227.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+   </center>
+   <bottom>
+      <Button mnemonicParsing="false" onMouseClicked="#reset" text="RESET" BorderPane.alignment="BOTTOM_RIGHT">
+         <BorderPane.margin>
+            <Insets bottom="30.0" right="30.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+   <top>
+      <Label fx:id="winner" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets top="50.0" />
+         </padding></Label>
+   </top>
+
+</BorderPane>
