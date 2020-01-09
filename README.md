@@ -18,5 +18,5 @@ These instruction will get you a copy of the project up and running on your loca
 ### Built with 
 - [javafx scene builder](https://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - A scene builder for the GUI 
 - [javafx-sdk-13.0.1](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) - Java SE Development Kit 13
-### Author
+# Author
 - Dixon Chu - initial work - [Dixon Chu](https://github.com/DixonChu) 
